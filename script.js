@@ -11,6 +11,7 @@ addButton.addEventListener("click", (e)=>{
 
     // creating th delete button
     let deleteBtn = document.createElement("button")
+    
     deleteBtn.innerHTML  = "Delete"
     deleteBtn.classList.add("delete-task")
     task.appendChild(deleteBtn)
